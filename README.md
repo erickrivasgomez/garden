@@ -16,7 +16,7 @@ Installation
 npm i
 ```
 
-### Algunos de los componentes utilizados:
+### Used components:
 
 * Card
 * Modal
@@ -28,6 +28,6 @@ npm i
 * Footer
 * Alert
 
-### Íconos:
+### Icons:
 
 [Boxicons - https://boxicons.com/](https://boxicons.com/)
