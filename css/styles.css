@@ -1,0 +1,381 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.imgTest {
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  padding-bottom: 5%;
+}
+
+.img-test {
+  width: 100%;
+  object-fit: cover;
+  max-width: 270px;
+}
+
+.imgLocation {
+  min-width: 100%;
+}
+
+.imagenGallery {
+  width: 100%;
+  object-fit: cover;
+  max-width: 270px;
+}
+
+.gallery-title {
+  font-size: 16px;
+  line-height: 8px;
+  display: flex;
+  align-items: center;
+  color: #005238;
+  padding: 5px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.subtitles {
+  font-size: 24px;
+  color: #005238;
+}
+
+.paragrah-content {
+  left: 8px;
+  font-family: Lato;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #177159;
+  padding-left: 5px;
+  font-style: lato;
+  font-weight: normal;
+  padding-top: 8px;
+}
+
+h3 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  color: #005238;
+}
+
+.paragraph-normal {
+  color: #005238;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: lato;
+}
+
+.img-carousel {
+  width: 100%;
+}
+
+.img-garden {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  object-position: center;
+}
+
+.img-carouselHome {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  object-position: center;
+}
+
+.carousel1 {
+  color: white;
+  background-color: #177159;
+  position: absolute;
+  top: -120px;
+  height: 150px;
+  left: 0;
+  padding: 10px;
+}
+
+.little_paragraph {
+  font-size: 18px;
+}
+
+.tittles {
+  color: #ffffff;
+  font-size: 24px;
+}
+.boton {
+  background-color: #005238;
+  color: #ffffff;
+}
+
+.activa {
+  background-color: transparent !important;
+  border-bottom: solid green !important;
+}
+
+.footer {
+  background-color: #005238;
+  color: #ffffff;
+  font-family: lato;
+  font-style: normal;
+  font-weight: lighter;
+}
+
+.p-24 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.caption-12 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.h1-48 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.p-16 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.h2-38 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.p-20 {
+  font-family: lato;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 30px;
+  color: #005238;
+}
+.pa-20 {
+  font-family: lato;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 30px;
+  color: #005238;
+}
+
+.p-30 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #005238;
+}
+
+@media only screen and (max-width: 600px) {
+  .h1-48 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .p-30 {
+    font-weight: normal;
+    font-size: 16px;
+
+    line-height: 24px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .pa-20 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .p-20 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .p-16 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+.form-control {
+  font-family: Lato;
+}
+
+@media only screen and (max-width: 600px) {
+  .img-carouselHome {
+    height: 100%;
+  }
+}
+
+.btn-verde{
+  background-color: #005238 !important;
+  border-color: #005238 !important;
+}
